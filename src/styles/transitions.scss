@@ -1,0 +1,10 @@
+/* Page transitions START */
+.main-transition-enter-active,
+.main-transition-leave-active {
+	transition: opacity 0.05s;
+}
+
+.main-transition-enter,
+.main-transition-leave-active {
+	opacity: 0;
+}
